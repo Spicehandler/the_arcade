@@ -22,18 +22,8 @@ main {
     background-color: var(--color-bg);
 }
 
-video {
-    border: solid white 3px;
-    border-radius: 50px;
-    min-height: 25px;
-    min-width: 25px;
-    max-width: 100%;
-    height: auto;
-}
-figcaption {
-    text-align: center;
-    font-size: large;
-}
+
+
 nav {
     padding: 5px;
     position: fixed;
@@ -44,12 +34,6 @@ nav {
 
 
 }
-figure {
-    margin-left: 5px;
-    margin-right: 5px;
-    min-width: 0;
-    flex-basis: 250px;
-    }
 
 nav a:hover{
     background: #7ADEFF;
@@ -129,14 +113,7 @@ ul{
     padding: 0px;
     margin: 0px;
 }
-.image-container{
-    display:flex;
-    justify-content: space-evenly ;
-    flex-wrap: wrap;
-    margin-top: 10px;
 
-
-}
 *:focus-visible {
     outline: red dotted 5px;
 }
@@ -154,6 +131,7 @@ body{
     header{
         position: sticky;
         top:0%;
+        z-index: 10;
     }
     nav{
         position: static;
