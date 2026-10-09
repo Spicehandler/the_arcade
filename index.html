@@ -2,27 +2,31 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport"
-        content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css" >
+        <link rel="stylesheet" href="../style.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
         <title>
-            Landing Page
+            Welcome Page
         </title>
     </head>
     <body>
         <header>
-            <nav class="link-container">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Game</a></li>
-                    <li><a href="./about/index.html">About Me</a></li>
-                    <li><a href="">Contact</a></li>
+            <nav>
+                <ul class="link-container">
+                    <li class="nav-list"><a  aria-current="page" href="#">Home</a></li>
+                    <li class="nav-list"><a href="./game/index.html">Game</a></li>
+                    <li class="nav-list"><a href ="./about/index.html">About Me</a></li>
+                    <li class="nav-list"><a href="./contact/index.html">Contact</a></li>
                 </ul>
-
             </nav>
-            <h1>Welcome To The Game Den</h1>
-            <p>You have entered a safe space for gamers</p>
+            <p class="nav-bar-name">Jeremy Spicehandler</p>
         </header>
         <main>
+            <h1>Welcome to The Game Den</h1>
             <img src="gameroom.jpg" 
             alt="img of gameroom"
             height="300" 

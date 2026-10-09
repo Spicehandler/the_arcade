@@ -36,6 +36,11 @@ figcaption {
 }
 nav {
     padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkslategray;
 
 
 }
@@ -54,6 +59,8 @@ nav a:hover{
     display :flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    min-height: 45px;
+    padding: 5px;
 
 }
  header p {
@@ -104,18 +111,18 @@ nav a{
     color: black;
     display: inline-block;
     text-align: center;
-    min-width: 98px;
-    padding: 7px;
+    min-width: 60px;
+    padding: 3px;
     text-decoration: none;
-    margin: 10px;
+    margin: 0;
 }
 
 header{
     border: var(--color-acct) solid 5px;
     background-color:darkslategrey;
-    position: sticky;
+
     text-align: center;
-    top:0%;
+
 
 }
 ul{
@@ -138,4 +145,19 @@ body{
     color:var(--color-txt);
     font-size: 1.125rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    padding-bottom: 60px;
+}
+@media (min-width: 700px) {
+    body{
+        padding-bottom: 0%;
+    }
+    header{
+        position: sticky;
+        top:0%;
+    }
+    nav{
+        position: static;
+        height: 45px;
+    }
+
 }
