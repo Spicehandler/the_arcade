@@ -28,3 +28,6 @@ span{
     text-align: left;
 
 }
+li::marker{
+    font-family: monospace;
+}

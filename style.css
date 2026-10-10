@@ -50,7 +50,7 @@ nav a:hover{
  header p {
     text-align: center;
     font-size: xx-large;
-    text-emphasis: bold;
+    text-decoration: solid;
     color: whitesmoke;
  }
 
@@ -99,6 +99,7 @@ nav a{
     padding: 3px;
     text-decoration: none;
     margin: 0;
+    transition: ease-in-out 300ms;
 }
 
 header{
